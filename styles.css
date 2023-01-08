@@ -1,0 +1,44 @@
+h1:hover{
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+
+.ll:focus{
+    color: red;
+    font-weight: 900;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+  li:first-child{
+    color: blue;
+  }
+
+    li:nth-child(2n){
+        color: red;
+        /* background-color: blanchedalmond; */
+        margin: 2%;
+    }
+
+
+    li:last-child{
+        color: blue;
+    }
+
+    li:nth-child(2n+1){
+        color: blue;
+    }
+
+    h1::before{
+        color: red;
+        content: 'Hello';
+        padding-right: 15px;
+    }
